@@ -110,17 +110,20 @@ header nav .container .navbar ul {
     top: 63%;
     left: 36%;
 }
-.button1 a button{
+
+.button1 a button {
     width: 181px;
     height: 48px;
     border-radius: 5px;
 }
+
 .button2 {
     position: absolute;
     top: 63%;
     margin-left: 750px;
 }
-.button2 a button{
+
+.button2 a button {
     background-color: #fff;
     color: #202020;
     width: 181px;
@@ -129,12 +132,24 @@ header nav .container .navbar ul {
 }
 
 /* ikinci sehife */
+.sehife2 {
+    background-color: #fff;
+}
 
-.sehife2 :nth-child(1){
-    background-color: red;
+/* .sehife2 :nth-child(1){
     margin-left: 135px;
     margin-top: 112px;
+    position: absolute;
+} */
+
+.sehife2 img {
+    position: absolute;
+    margin-left: 135px;
+    margin-top: 112px;
+    padding-bottom: 130px;
 }
+
+
 /* .sehife2 :nth-child(2){
 background-color: blue;
 margin-left: 234px;
@@ -142,9 +157,69 @@ margin-left: 234px;
    left: 60%;
 } */
 
-.sehife2 .sekil2{
-    background-color: blue;
-    display: inline-block;
+.sehife2 .sekil2 {
+    display: block;
+    margin-left: 234px;
+    margin-right: 90%;
+    top: 50%;
+    padding-top: 186px;
 
 }
+
+.sehife2 .yazi4 {
+    top: 1122px;
+    /* margin-right: 400px; */
+    left: 64%;
+    position: absolute;
+    font-size: 16px;
+}
+
+.sehife2 .yazi4 h1 {
+    color: #FF3839;
+}
+
+.sehife2 .yazi4 span {
+    color: #696969;
+}
+
+.sehife2 .basliq {
+   width: 534;
+   left: 752px;
+    /* padding-top: 19px; */
+    font-size: 48px;
+
+    position: absolute;
+}
+
+.sehife2 .basliq span {
+    color: #FF3839;
+
+}
+.sehife2 .yazi5{
+    position: absolute;
+    width: 504px;
+    height: 363px;
+    margin-left: 752px;
+    padding-top: 170px;
+}
+.sehife2 .button3{
+    position: absolute;
+    margin-left: 752px;
+    margin-top: 385px;
+    
+   
+}
+.sehife2 .button3 a button{
+    background-color: #FF3839;
+    width: 181px;
+    height: 48px;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+/* sehife2 end */
+
+
+/* sehife3 start */
+
 
